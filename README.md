@@ -1,12 +1,26 @@
-This code produces the first part of results of the paper Guseva et al
-(2023), "Trade-offs faced by bacteria in decomposition of complex
-biopolymers".
-It is written in Python, with additional functions imported from C++
-using Boost.Python. To run the code make sure to have installed Python
-3.11 and Boost.Python.
+This code produces the first part of results of the paper Guseva et al (2024),
+"Bacteria face trade-offs in the decomposition of complex biopolymers". It is
+written in Python, with additional functions imported from C++ using
+Boost.Python. To run the code make sure to have installed Python 3.11 and
+Boost.Python.
+
+# Before running the program:
+----------------------------
+
+For installation and use of Python and Boost.Python please check the
+documentation:
+
+https://www.python.org/downloads/
+https://www.boost.org/doc/libs/1_84_0/more/getting_started/index.html
+
+Please configure the Makefile file with for the appropriate location of your
+libraries (first line of the file) and appropriate version of Python installed.
+Run ==make== to compile all functions written in C++. 
+
+After that you should be ready to tun the python code.
 
 # File list:
---------
+-----------
 
 ## Structural files
 --------
@@ -44,7 +58,6 @@ using Boost.Python. To run the code make sure to have installed Python
    system. The output is a txt file with the time series of concentration
    of different components of the model.
 
-2. **main.py**:
 
 ## Output
 -----------

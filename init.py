@@ -111,7 +111,7 @@ def init_system(init_PS, chain_size, fr_enz1, fr_enz2, efr, bac_ntypes):
     #  Parameters are taken from a file: ./parameters/*.csv
     # ################################################################################
 
-    bac_init = 1.
+    bac_init = 1. # in nmol C/mm^3
     #single = 0 #  not single (use 1 for single)
     #bac_ntypes = 1
 

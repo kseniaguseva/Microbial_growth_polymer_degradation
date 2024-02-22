@@ -45,7 +45,7 @@ public:
         _km_exo = km;
         _km_endo = km;
         _vmax_exo = vmax;
-        _vmax_endo = vmax/2;    // we consider that endo-chitinase is slower
+        _vmax_endo = vmax; //vmax/2;    // we consider that endo-chitinase is slower
        
         
             
